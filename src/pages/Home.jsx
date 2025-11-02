@@ -47,7 +47,7 @@ const HomePage = () => {
         <div className="right-panel" style={{ position: "relative", zIndex: 1,backgroundColor: 'rgba(255, 255, 255, 0)', padding: '40px', borderRadius: '15px' }}>
           <h1 className="site-title">DataVault</h1>
           <p className="site-description">
-            A banking service
+            A service for microfinance
           </p>
         </div>
       </main>
