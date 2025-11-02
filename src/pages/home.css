@@ -1,0 +1,132 @@
+/* Page base */
+.homepage {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ✅ Navbar — slightly larger than before */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  height: 65px; /* increased from 50px */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo {
+  width: 40px; /* larger logo in navbar */
+  height: 40px;
+}
+
+.nav-title {
+  font-size: 20px; /* slightly bigger text */
+  font-weight: 600;
+  color: #5d69ee;
+  letter-spacing: 0.5px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: 1px solid #5d69ee;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 22px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #4e29e3;
+  color: #d6d6d6;
+}
+
+/* ✅ Main content */
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 60px 80px;
+  gap: 80px;
+}
+
+.left-panel {
+  width: 50%;
+  height: 75vh; /* larger metallic logo area */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-panel {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ✅ Bigger text */
+.site-title {
+  font-size: 70px; /* increased from 52px */
+  color: #5d69ee;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  font-size: 20px; /* slightly bigger */
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  max-width: 550px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 900px) {
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .left-panel {
+    width: 80%;
+    height: 45vh;
+  }
+
+  .site-title {
+    font-size: 42px;
+  }
+
+  .site-description {
+    font-size: 16px;
+  }
+
+  .nav-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .navbar {
+    height: 55px;
+  }
+}

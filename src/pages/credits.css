@@ -1,0 +1,88 @@
+.credits-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b0f1a;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+
+.credits-box {
+  width: 900px;
+  padding: 30px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 14px;
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  box-shadow: 0 0 22px rgba(60, 45, 173, 0.3);
+}
+
+.credits-box h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.credit-card {
+  width: 240px;
+  padding: 25px 18px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(22px);
+  text-align: center;
+  transition: 0.25s ease;
+  cursor: default;
+}
+
+.credit-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(88, 94, 220, 0.6);
+  border-color: rgba(110, 114, 252, 0.8);
+}
+
+.coin-img {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.credit-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+  color: #b8b8ff;
+}
+
+.buy-btn {
+  width: 100%;
+  padding: 10px;
+  background: #6e72fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.buy-btn:hover {
+  background: #585edc;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(84, 55, 211, 0.45);
+}
