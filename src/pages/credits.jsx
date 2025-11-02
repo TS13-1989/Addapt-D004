@@ -4,7 +4,7 @@ import "./credits.css";
 const creditPackages = [
   { credits: 25, price: "₹500", img: "/coin.gif" },
   { credits: 50, price: "₹750", img: "/coin.gif" },
-  { credits: 100, price: "₹100", img: "/coin.gif" },
+  { credits: 100, price: "₹1000", img: "/coin.gif" },
 ];
 
 export default function Credits() {
